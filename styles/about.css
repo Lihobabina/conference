@@ -1,0 +1,55 @@
+main{
+    width: 100%;
+    padding: 0 100px;
+}
+main h1{
+    font-size: 68px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+main img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.main-p{
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.tickets{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.ticket{
+    width: 30%;
+}
+.ticket h4{
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.ticket p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.ticket a{
+    display: block;
+    width: 15%;
+}
+.ticket a img{
+    width: 100%;
+}
+.menu-main{
+    border-top: 1px solid #D6FFCF;
+}
+.menu-main a {
+    margin-right: 50px;
+}

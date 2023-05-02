@@ -1,0 +1,37 @@
+main{
+    width: 100%;
+    padding: 50px 100px 0 100px;
+}
+.program-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.program-card {
+    width: 30%;
+    padding-right: 30px;
+    border-right: 1px solid #D6FFCF;
+}
+.program-card h2, .program-card h3{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.program-card h1{
+    font-size: 250px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.program-card h4{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.program-card p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.menu-main{
+    border-top: 1px solid #D6FFCF;
+}

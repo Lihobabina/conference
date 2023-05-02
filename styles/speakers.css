@@ -1,0 +1,82 @@
+main{
+    padding: 0 50px;
+}
+.speakers-page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.speaker{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about-speaker {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-speaker h1{
+    font-size: 38px;
+    font-weight: 500;
+}
+.about-speaker h3{
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    width: 65%;
+}
+.about-speaker p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.about-speaker a{
+    width: 12%;
+}
+.about-speaker a img{
+    width: 100%;
+}
+
+.other-speakers{
+    padding: 50px 0 50px 50px; 
+}
+.other-speakers h1{
+    font-size: 38px;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+}
+.card h1{
+    font-size: 28px;
+}
+.card h2{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.card a {
+    display: block;
+    width: 10%;
+}
+.card a img{
+    width: 100%;
+}
+.menu-main {
+    border-top: 1px solid #D6FFCF;
+}
+.menu-main a:hover{
+    color: #214723;
+}

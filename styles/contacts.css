@@ -1,0 +1,105 @@
+main{
+    width: 100%;
+    padding: 0 100px 100px 100px;
+    border-bottom: 1px solid #D6FFCF;
+}
+.locations {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.locations h1{
+    font-size: 68px;
+    line-height: 1.2;
+}
+.location-cards {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+.location-card {
+    width: 45%;
+}
+.location-card h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.location-card p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.location-card a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.location-card a img{
+    width: 100%;
+    height: 100%;
+}
+.contact-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.contacts {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.contact-us form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.contact-us form input{
+    background-color: rgba(255,255,255,0);
+    border-bottom: rgba(227,255,222,1) 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 37px;
+    outline: none;
+    color: #D6FFCF;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.contact-us form input::placeholder{
+    color: #D6FFCF;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.contact-us form button{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    background-color: rgba(255,255,255,0);
+    border: 2px solid rgba(227,255,222,1);
+    color: #e3ffde;
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 76px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.contact-us form button:hover{
+    background-color: rgba(227,255,222,1);
+    color: #535391;
+}
