@@ -80,3 +80,38 @@ main{
 .menu-main a:hover{
     color: #214723;
 }
+@media (max-width: 1024px){
+    .speaker{
+        flex-direction: column;
+    }
+    .about-speaker{
+        width: 90%;
+       align-items: center;
+    }
+    .speaker img{
+        width: 75%;
+    }
+    .about-speaker p, .about-speaker h3{
+        text-align: center;
+    }
+    .card {
+        width: 45%;
+      }
+}
+@media (max-width:768px){
+    main{
+        padding: 30px;
+    }
+    .speaker, .speaker img, .about-speaker h3{
+        width: 100%;
+    }
+    .speaker{
+        text-align: center;
+    }
+    .speaker p{
+        margin-bottom: 15px;
+    }
+    .card{
+        width: 100%;
+    }
+}

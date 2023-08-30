@@ -103,3 +103,33 @@ main{
     background-color: rgba(227,255,222,1);
     color: #535391;
 }
+@media (max-width: 1024px){
+    .locations, .contact-us{
+        flex-direction: column;
+    }
+    .location-cards{
+        width: 90%;
+    }
+    .contacts{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .contact-us form{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    main{
+        padding: 30px;
+    }
+    .locations h1{
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+    .location-cards, .location-card, .contacts{
+        width: 100%;
+    }
+    .contact-us{
+        padding-top: 30px;
+    }
+}
